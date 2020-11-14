@@ -9,13 +9,12 @@ Teste realizado com o SPA 504G
 
 ## Links Úteis
 
-[Alterar url de provisionamento](https://raw.githubusercontent.com/abelmferreira/3cx-fanvil-custom-template/master/fanvil_bg_confs.jpg)
-[Provisionamento via DHCP](https://www.3cx.com/sip-phones/cisco-spa/)
-[Force Resync](https://www.3cx.com/sip-phones/cisco-spa501g/)
+- [Alterar url de provisionamento](https://raw.githubusercontent.com/abelmferreira/3cx-fanvil-custom-template/master/fanvil_bg_confs.jpg)
+- [Provisionamento via DHCP](https://www.3cx.com/sip-phones/cisco-spa/)
+- [Force Resync](https://www.3cx.com/sip-phones/cisco-spa501g/)
 
 
 ## Como usar
 
 - Adicione um novo template selecionando o arquivo cisco_custom.ph.xml em Settings >> Templates
-
 - No provisionamento escolha o modelo apropriado procurando pelo modelo do aparelho com o complemento no nome "Custom"
