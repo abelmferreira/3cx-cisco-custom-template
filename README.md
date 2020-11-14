@@ -3,7 +3,7 @@ Template customizado de provisionamento do CISCO SPA 50x que permite o uso do ap
 
 No arquivo de provisionamento padrão não temos opção de configuração via SBC, este template habilita a opção para provisionamento automático do aparelho.
 
-A URL de provisionamento precisa ser adicionada manualmente no aparelho ou via DHCP Options 66, o audodiscover do SBC não funciona com esse aparelho. Nos meus testes o provisionamento via HTTPS não funcionou, pelo aparelho ser antigo, parece que ele não consegue reconhecer os novos certificados. Via HTTP funcionou perfeitamente.
+A URL de provisionamento precisa ser adicionada manualmente no aparelho ou via DHCP Options 66, o audodiscover do SBC não funciona com esse aparelho. Nos meus testes o provisionamento via HTTPS não funcionou, pelo aparelho ser antigo, parece que ele não consegue reconhecer os novos certificados. Via HTTP funcionou perfeitamente. (OBS HTTP habilitado na conf padrão do 3cx somente em lan local)
 
 Teste realizado com o SPA 504G
 
