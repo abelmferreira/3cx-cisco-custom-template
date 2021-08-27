@@ -718,12 +718,14 @@
 <!--###                  DND  Settings                   ###-->
 <!--########################################################-->
 
-<PSK_1 group="Phone/Programmable_Softkeys">fnc=sd;ext=%%param::DIALCODEPROFILE%%2;nme=dnd;ext2=%%param::DIALCODEPROFILE%%0;nme2=-dnd</PSK_1>
+<!-- <PSK_1 group="Phone/Programmable_Softkeys">fnc=sd;ext=%%param::DIALCODEPROFILE%%2;nme=dnd;ext2=%%param::DIALCODEPROFILE%%0;nme2=-dnd</PSK_1> -->
+<PSK_1 group="Phone/Programmable_Softkeys"></PSK_1>
+
 <DND_Act_Code group="Regional/Vertical_Service_Activation_Codes"></DND_Act_Code>
 <DND_Deact_Code group="Regional/Vertical_Service_Activation_Codes"></DND_Deact_Code>
 <Service_Annc_Base_Number group="Regional/Vertical_Service_Announcement_Codes"></Service_Annc_Base_Number>
 <Service_Annc_Extension_Codes group="Regional/Vertical_Service_Announcement_Codes">DDT:2;DDF:0</Service_Annc_Extension_Codes>
-<DND_Serv group="Phone/Supplementary_Services">Yes</DND_Serv>
+<DND_Serv group="Phone/Supplementary_Services">No</DND_Serv>
 <Service_Annc_Serv group="Phone/Supplementary_Services">Yes</Service_Annc_Serv>
 
 {IF ua=SPA504G}
