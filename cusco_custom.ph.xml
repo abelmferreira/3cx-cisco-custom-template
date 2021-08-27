@@ -538,8 +538,8 @@
 <SIP_Port_1_ group="Ext_1/SIP_Settings">5060</SIP_Port_1_>
 
 <!--# Audio Default Port Range (SDP/RTP) #-->
-<RTP_Port_Min group="SIP/RTP_Parameters">16384</RTP_Port_Min>
-<RTP_Port_Max group="SIP/RTP_Parameters">16538</RTP_Port_Max>
+<RTP_Port_Min group="SIP/RTP_Parameters">9600</RTP_Port_Min>
+<RTP_Port_Max group="SIP/RTP_Parameters">10400</RTP_Port_Max>
 
 <!--# STUN Server Default Sertting #-->
 <STUN_Enable group="SIP/NAT_Support_Parameters">No</STUN_Enable>
